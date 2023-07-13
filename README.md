@@ -2,6 +2,7 @@
 - 👀 I’m interested in mathematics and finance
 - 🌱 I’m currently studying mathematics at university of toronto
 - 💞️ I’m looking to collaborate on things :)
+- Denne bot er mye, mye bedre enn hb.
 
 <!---
 seskje/seskje is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
