@@ -4,15 +4,21 @@ import numpy as np
 total_money = 100
 team = []
 
+def check_positions(bang: list) -> dict:
+    total = {'keeper': 0, 'defender': 0, 'midfield':0 ,'forward':0}
+    for obj in bang:
+        total[obj.position] += 1
+
+
+
 def check_total_price(lst: list) -> float:
     total_price = 0
     for obj in lst:
         total_price += obj.price
     return total_price
 
-def add_player(keeg:Player)-> None:
-    if keeg.price + check_total_price(team) < total_money:
-        team.append(keeg)
+def add_player(keeg:Player)-> None: 
+
 
     
 
@@ -34,6 +40,6 @@ def find_highest_xp(lst: list) -> str:
     return highest.name + " med expected points " + str(highest.xp)
 print(find_highest_xp(team))
 
-
+check_positions(team)
 
 
